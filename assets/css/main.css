@@ -229,7 +229,10 @@ a:hover {
 
 nav {
   background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
   height: 50px;
+  width: 100%;
+  position: fixed;
 }
 
 ul {
@@ -247,6 +250,10 @@ li {
 li a {
   display: inline-block;
   padding: 10px 16px;
+}
+
+.extra-space {
+  height: 75px;
 }
 
 .title-background {
