@@ -10,24 +10,25 @@
 <body>
   <nav>
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="#home">Home</a></li>
       <li><a href="calendar.html">Calendar</a></li>
       <li><a href="#">Partners</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
+  <header id="home">
+    <div class="title">
+      <h1 class="kzoo">KZOO</h1>
+      <h1 class="pfpj">PFPJ</h1>
+      <p>People for Peace &amp; Justice</p>
+      <p>of Greater Kalamazoo</p>
+      <a href="#about"><h2 class="arrow" style="font-family: sans-serif; color: #eee;">V</h2></a>
+    </div>
+  </header>
 
-  <div class="title">
-    <h1 class="kzoo">KZOO</h1>
-    <h1 class="pfpj">PFPJ</h1>
-    <p>People for Peace &amp; Justice</p>
-    <p>of Greater Kalamazoo</p>
-    <a href="#about"><h2 class="arrow" style="font-family: sans-serif; color: #eee;">V</h2></a>
-  </div>
-
-  <div class="about" id="about">
-    <h2>We're here for Peace and Justice</h2>
-    <div class="about-text">
+  <section class="white-box about" id="about">
+    <div class="box-text center">
+      <h2>We are here for Peace and Justice</h2>
       <p>Our coalition of organizations work for peace and justice in the Greater Kalamazoo area of Michigan.
         <br><br>
         We are local volunteer-run organizations, churches, and colleges with active peace and justice programs designed to engage the general public, including our youth.
@@ -36,7 +37,76 @@
         <br><br>
         Our intention is to build alliances and to strengthen the voices of peace and justice in Greater Kalamazoo. Learn more about the many local participating organizations and their specific programs and events on our site.</p>
     </div>
-  </div>
+  </section>
+  <section class="black-box calendar">
+    <div class="left-half">
+      <div class="box-text twin l-twin">
+        <h2>Keep Up to Date with Our Online Calendar</h2>
+        <a href="calendar.html">
+          <svg class="cal-icon" style="width:150px;height:150px" viewBox="0 0 24 24">
+            <path fill="#168c8f" d="M19,19H5V8H19M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M16.53,11.06L15.47,10L10.59,14.88L8.47,12.76L7.41,13.82L10.59,17L16.53,11.06Z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="right-half">
+      <div class="box-text twin r-twin">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation ullamco laboris</a> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="white-box partners">
+    <div class="box-text center">
+      <h2>Meet Our Partners</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation ullamco laboris</a> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <svg class="activist" style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#168c8f" d="M10,4A4,4 0 0,1 14,8A4,4 0 0,1 10,12A4,4 0 0,1 6,8A4,4 0 0,1 10,4M10,14C14.42,14 18,15.79 18,18V20H2V18C2,15.79 5.58,14 10,14M20,12V7H22V12H20M20,16V14H22V16H20Z" />
+      </svg>
+      <svg style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#444" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+      </svg>
+      <svg style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#444" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+      </svg>
+      <svg style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#444" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+      </svg>
+      <svg class="activist" style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#168c8f" d="M10,4A4,4 0 0,1 14,8A4,4 0 0,1 10,12A4,4 0 0,1 6,8A4,4 0 0,1 10,4M10,14C14.42,14 18,15.79 18,18V20H2V18C2,15.79 5.58,14 10,14M20,12V7H22V12H20M20,16V14H22V16H20Z" />
+      </svg>
+      <svg style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#444" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+      </svg>
+      <svg class="activist" style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#168c8f" d="M10,4A4,4 0 0,1 14,8A4,4 0 0,1 10,12A4,4 0 0,1 6,8A4,4 0 0,1 10,4M10,14C14.42,14 18,15.79 18,18V20H2V18C2,15.79 5.58,14 10,14M20,12V7H22V12H20M20,16V14H22V16H20Z" />
+      </svg>
+      <svg style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#444" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+      </svg>
+      <svg style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#444" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+      </svg>
+      <svg class="activist" style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#168c8f" d="M10,4A4,4 0 0,1 14,8A4,4 0 0,1 10,12A4,4 0 0,1 6,8A4,4 0 0,1 10,4M10,14C14.42,14 18,15.79 18,18V20H2V18C2,15.79 5.58,14 10,14M20,12V7H22V12H20M20,16V14H22V16H20Z" />
+      </svg>
+      <svg style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path fill="#444" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+      </svg>
+
+    </div>
+  </section>
+
+  <section class="black-box" id="contact">
+    <div class="box-text twin">
+      <h2>Get in Touch with Us Today</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation ullamco laboris</a> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+  </section>
+
+
 
 
   <div class="footer">

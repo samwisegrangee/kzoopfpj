@@ -65,3 +65,5 @@ $(document).ready(function() {
 });
 
 $(".arrow").addClass("animated bounce");
+$(".cal-icon").addClass("animated infinite pulse");
+$(".activist").addClass("animated infinite pulse");

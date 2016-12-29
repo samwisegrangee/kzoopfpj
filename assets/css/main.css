@@ -185,24 +185,82 @@ td, th {
 
 body {
   height: 100%;
+  background-color: #222;
+}
+
+.white-box {
+  background-color: #ccc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.white-box .box-text h2 {
+  color: #444;
+}
+
+.white-box .box-text p {
+  color: #444;
+}
+
+.white-box .box-text svg {
+  color: #168c8f;
+}
+
+.black-box {
+  background-color: #222;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.black-box .box-text h2 {
+  color: #1aacb3;
+}
+
+.black-box .box-text p {
+  color: #aaa;
+}
+
+.black-box .box-text svg {
+  color: #1aacb3;
+}
+
+body {
   font-size: 14px;
   line-height: 1.6;
-  background-color: #222;
   font-family: 'Roboto Slab', serif;
-  color: #5bf4ff;
+  color: #1aacb3;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
 }
 
+h1, h2 {
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  letter-spacing: .2em;
+}
+
 a {
+  color: #168c8f;
   text-decoration: none;
-  color: #aaa;
 }
 
 a:hover {
-  color: #5bf4ff;
-  transition: all 0.3s ease 0s;
+  color: #1aacb3;
+}
+
+.white-box-text p {
+  color: #444;
+}
+
+footer p {
+  color: #aaa;
 }
 
 nav {
@@ -241,29 +299,17 @@ li a {
   margin: 100px auto;
 }
 
+.title h1, .title h2 {
+  padding-left: 20px;
+}
+
 .title p {
   font-family: 'Lato', serif;
   letter-spacing: .2em;
 }
 
-.title h1, .title h2 {
-  padding-left: 20px;
-}
-
 .title .arrow {
   padding: 0;
-}
-
-h1, h2 {
-  font-weight: 100;
-}
-
-h1 {
-  font-size: 50px;
-}
-
-h2 {
-  letter-spacing: .2em;
 }
 
 .kzoo {
@@ -274,22 +320,43 @@ h2 {
   letter-spacing: .48em;
 }
 
-.about {
-  background-color: #eee;
+.white-box h2 {
+  padding-top: 10px;
 }
 
-.about h2 {
-  color: #333;
-  padding: 20px 0px 0px 0px;
-}
-
-.about-text {
-  max-width: 400px;
-  margin: 0px auto;
+.box-text {
   text-align: justify;
   padding-bottom: 20px;
+  margin: 0px auto;
 }
 
-.about-text p {
-  color: #666;
+.center {
+  max-width: 600px;
+}
+
+.left-half, .right-half {
+  display: inline-block;
+  width: 50%;
+}
+
+.right-half {
+  float: right;
+}
+
+.twin {
+  width: 300px;
+  padding: 10px;
+}
+
+.l-twin {
+  float: right;
+}
+
+.r-twin {
+  float: left;
+}
+
+.cal-icon {
+  display: block;
+  margin: 0 auto;
 }
