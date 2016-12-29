@@ -189,7 +189,7 @@ body {
 }
 
 .white-box {
-  background-color: #ccc;
+  background-color: #eee;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -263,29 +263,30 @@ footer p {
   color: #aaa;
 }
 
-nav {
+.navbar-inverse {
   background-color: rgba(0, 0, 0, 0.8);
-  top: 0;
   height: 50px;
-  width: 100%;
-  position: fixed;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.navbar-brand img {
+  height: 30px;
+  margin-top: -5px;
 }
 
 li {
   display: inline;
-  padding: 20px;
   font-size: 18px;
 }
 
 li a {
   display: inline-block;
   padding: 10px 16px;
+}
+
+@media (max-width: 767px) {
+  ul {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
 }
 
 .extra-space {
@@ -308,8 +309,13 @@ li a {
   letter-spacing: .2em;
 }
 
+.title a {
+  text-decoration: none;
+}
+
 .title .arrow {
   padding: 0;
+  margin-top: 50px;
 }
 
 .kzoo {
@@ -320,14 +326,15 @@ li a {
   letter-spacing: .48em;
 }
 
-.white-box h2 {
-  padding-top: 10px;
-}
-
 .box-text {
   text-align: justify;
-  padding-bottom: 20px;
-  margin: 0px auto;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.box-text h2 {
+  text-align: left;
+  font-size: 24px;
 }
 
 .center {
@@ -359,4 +366,28 @@ li a {
 .cal-icon {
   display: block;
   margin: 0 auto;
+}
+
+.calendar-container {
+  max-width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cal-lg {
+  display: block;
+}
+
+.cal-sm {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .cal-lg {
+    display: none;
+  }
+  .cal-sm {
+    display: block;
+  }
 }
