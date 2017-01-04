@@ -224,6 +224,14 @@ body {
   color: #1aacb3;
 }
 
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin: 20px;
+}
+
 body {
   font-size: 14px;
   line-height: 1.6;
@@ -253,6 +261,7 @@ a {
 
 a:hover {
   color: #1aacb3;
+  text-decoration: none;
 }
 
 .white-box-text p {
@@ -363,9 +372,37 @@ li a {
   float: left;
 }
 
+@media (max-width: 660px) {
+  .left-half, .right-half {
+    display: block;
+    width: 100%;
+  }
+  .left-half, .right-half,
+  .l-twin, .r-twin {
+    float: none;
+  }
+}
+
 .cal-icon {
   display: block;
   margin: 0 auto;
+}
+
+.crowd-box {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.crowd-half {
+  width: 280px;
+  display: inline;
+  margin: 0 auto;
+}
+
+@media (max-width: 614px) {
+  .crowd-half {
+    display: block;
+  }
 }
 
 .calendar-container {
@@ -390,4 +427,23 @@ li a {
   .cal-sm {
     display: block;
   }
+}
+
+.gallery {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.gall-head {
+  margin: 0 auto 20px auto;
+  color: #aaa;
+}
+
+.box {
+  height: 150px;
+  border: 1px solid #168c8f;
+}
+
+.l-twin .activist {
+  margin-left: 60px;
 }

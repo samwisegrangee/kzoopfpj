@@ -42,8 +42,10 @@
 .left-half, .right-half
   display: inline-block
   width: 50%
+
 .left-half
   float:left
+
 .right-half
   float: right
 
@@ -57,8 +59,30 @@
 .r-twin
   float: left
 
+@media (max-width: 660px)
+  .left-half, .right-half
+    display: block
+    width: 100%
+    
+  .left-half, .right-half,
+  .l-twin, .r-twin
+    float: none
+
 
 //Misc
 .cal-icon
   display: block
   margin: 0 auto
+
+.crowd-box
+  text-align: center
+  margin: 0 auto
+
+.crowd-half
+  width: 280px
+  display: inline
+  margin: 0 auto
+
+@media (max-width: 614px)
+  .crowd-half
+    display: block
